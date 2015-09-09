@@ -1,0 +1,57 @@
+$h-font-fam: "jubilat",sans-serif;
+$body-font-fam: "museo-sans", sans-serif;
+$header: #d6610b;
+$p: #333;
+$a: darken(#6fa8ba, 10%);
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $h-font-fam;
+	line-height: 1.3;
+	color: $header;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+h2, h3, h4, h5, h6 {
+	font-weight: 200;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.65rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1.3rem;
+}
+
+h6 {
+	font-size: 1.25rem;
+}
+
+p, a, li {
+	font-family: $body-font-fam;
+	line-height: 1.8;
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+p {
+	color: $p;
+}
+
+a {
+	color: $a;
+	font-weight: 500;
+	font-style: italic;
+}
