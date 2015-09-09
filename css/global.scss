@@ -282,6 +282,8 @@ nav {
 table {
 	margin-right: auto;
 	margin-left: auto;
+	display: block;
+	overflow-x: auto;
 }
 
 caption {
@@ -292,7 +294,7 @@ td {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 0.5rem;
+	padding: 0.25rem;
 	text-align: center;
 }
 
