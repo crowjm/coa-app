@@ -15,7 +15,6 @@ h1 {
 }
 
 
-
 /***header***/
 .wordmark img {
 	display: block;
@@ -41,7 +40,7 @@ h1 {
 }
 
 .welcome-intro {
-	background-color: rgba(255,255,255,0.65);
+	background-color: rgba(255,255,255,0.85);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -147,6 +146,10 @@ nav {
 	}
 }
 
+.why-content li {
+	margin-bottom: 1rem;
+}
+
 .govtmember {
 	overflow: hidden;
 	margin-bottom: 1.5rem;
@@ -231,6 +234,37 @@ nav {
 }
 
 
+.parks {
+	color: rgb(98,175,68);
+}
+
+.museums {
+	color: rgb(65,134,240);
+}
+
+.libraries {
+	color: rgb(219,68,54);
+}
+
+.ccenters {
+	color: #fff;
+	background-color: black;
+}
+
+.tacos {
+	color: rgb(244,235,55);
+}
+
+.venues {
+	color: rgb(124,53,146);
+}
+
+.parks, .museums, .libraries, .ccenters, .tacos, .venues {
+	font-weight: bold;
+	font-size: 1.25rem;
+}
+
+
 
 /***map***/
 .map-iframe {
@@ -261,7 +295,7 @@ nav {
 }
 
 .events-intro {
-	background-color: rgba(255,255,255,0.65);
+	background-color: rgba(255,255,255,0.85);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;

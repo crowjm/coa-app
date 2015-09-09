@@ -135,7 +135,7 @@ h1 {
   padding-bottom: 2rem; }
 
 .welcome-intro {
-  background-color: rgba(255, 255, 255, 0.65);
+  background-color: rgba(255, 255, 255, 0.85);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -216,6 +216,9 @@ nav {
 #how-content h4 {
   margin-bottom: 1rem; }
 
+.why-content li {
+  margin-bottom: 1rem; }
+
 .govtmember {
   overflow: hidden;
   margin-bottom: 1.5rem; }
@@ -285,6 +288,29 @@ nav {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.parks {
+  color: #62af44; }
+
+.museums {
+  color: #4186f0; }
+
+.libraries {
+  color: #db4436; }
+
+.ccenters {
+  color: #fff;
+  background-color: black; }
+
+.tacos {
+  color: #f4eb37; }
+
+.venues {
+  color: #7c3592; }
+
+.parks, .museums, .libraries, .ccenters, .tacos, .venues {
+  font-weight: bold;
+  font-size: 1.25rem; }
+
 /***map***/
 .map-iframe {
   position: relative;
@@ -308,7 +334,7 @@ nav {
   padding-bottom: 2rem; }
 
 .events-intro {
-  background-color: rgba(255, 255, 255, 0.65);
+  background-color: rgba(255, 255, 255, 0.85);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
