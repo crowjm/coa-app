@@ -173,10 +173,10 @@ nav {
   nav li:nth-of-type(4) {
     padding-top: 10px; }
 
-#home, #events, #questions {
+#home, #events, #search {
   padding-left: 0; }
 
-#home img, #events img, #questions img {
+#home img, #events img, #search img {
   width: 60px;
   padding: 10px;
   display: block;
@@ -189,7 +189,7 @@ nav {
 #events {
   background-color: #fdc03c; }
 
-#questions {
+#search {
   background-color: #004968; }
 
 /***main get acquainted content***/
@@ -229,7 +229,7 @@ nav {
   height: 100px;
   border-radius: 50%;
   float: left;
-  margin-right: 30px; }
+  margin-right: 20px; }
 
 .info {
   margin-top: 20px; }
