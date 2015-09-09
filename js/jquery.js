@@ -24,11 +24,14 @@ $("#govt-header").click (
 	}
 );
 
-$("#map-header").click (
-	function(){
-		$("#map-content").toggle();
-	}
-);
+//reveal content and scroll to map so that it shows in viewport
+$("#map-header").click(function(){
+  $("#map-content").slideToggle("slow");
+  if ($("#map-content").is(':visible')) {
+     $("html, body").animate({scrollTop: $("#map-content").offset().top});
+  }
+});
+
 
 //show and hide in how do i question
 $("#billsq").click (
