@@ -29,3 +29,58 @@ $("#map-header").click (
 		$("#map-content").toggle();
 	}
 );
+
+//show and hide in how do i question
+$("#billsq").click (
+	function(){
+		$("#billsa").toggle();
+	}
+);
+
+$("#ticketq").click (
+	function(){
+		$(".ticketa").toggle();
+	}
+);
+
+$("#adoptq").click (
+	function(){
+		$(".adopta").toggle();
+	}
+);
+
+$("#recycleq").click (
+	function(){
+		$("#recyclea").toggle();
+	}
+);
+
+$("#voteq").click (
+	function(){
+		$(".votea").toggle();
+	}
+);
+
+
+//scroll smoothly to shown events on calendar
+
+$(".sept7").click(function(){
+  $("#sept7").slideToggle("slow");
+  if ($("#sept7").is(':visible')) {
+     $("html, body").animate({scrollTop: $("#sept7").offset().top});
+  }
+});
+
+$(".sept11").click(function(){
+  $("#sept11").slideToggle("slow");
+  if ($("#sept11").is(':visible')) {
+     $("html, body").animate({scrollTop: $("#sept11").offset().top});
+  }
+});
+
+$(".sept20").click(function(){
+  $("#sept20").slideToggle("slow");
+  if ($("#sept20").is(':visible')) {
+     $("html, body").animate({scrollTop: $("#sept20").offset().top});
+  }
+});

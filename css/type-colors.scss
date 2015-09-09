@@ -44,7 +44,7 @@ h6 {
 	font-size: 1.25rem;
 }
 
-p, a, li {
+p, a, li, td {
 	font-family: $body-font-fam;
 	line-height: 1.8;
 	font-size: 1.15rem;
@@ -61,8 +61,16 @@ a {
 	font-style: italic;
 }
 
-.ui-datepicker {
+caption {
 	text-transform: uppercase;
-    font-family: $body-font-fam;
-    font-size: 1rem;
+    font-family: $h-font-fam;
+    font-size: 1.75rem;
+}
+
+caption, tr:nth-of-type(1) {
+	color: darken($dkblue, 10%);
+}
+
+tr {
+	color: white;
 }

@@ -72,7 +72,7 @@ h5 {
 h6 {
   font-size: 1.25rem; }
 
-p, a, li {
+p, a, li, td {
   font-family: "museo-sans", sans-serif;
   line-height: 1.8;
   font-size: 1.15rem;
@@ -86,10 +86,16 @@ a {
   font-weight: 500;
   font-style: italic; }
 
-.ui-datepicker {
+caption {
   text-transform: uppercase;
-  font-family: "museo-sans", sans-serif;
-  font-size: 1rem; }
+  font-family: "jubilat", sans-serif;
+  font-size: 1.75rem; }
+
+caption, tr:nth-of-type(1) {
+  color: #002535; }
+
+tr {
+  color: white; }
 
 /***general***/
 .wrapper {
@@ -178,25 +184,103 @@ nav {
   background-color: #6fa8ba; }
 
 #events {
-  background-color: #274d1c; }
+  background-color: #fdc03c; }
 
 #questions {
   background-color: #004968; }
 
 /***main get acquainted content***/
 #about-content, .why-content, #how-content, #govt-content, #map-content {
-  display: none; }
+  display: none;
+  padding: 1rem; }
 
 #about-header, #why-header, #how-header, #govt-header, #map-header {
   text-align: center;
-  border-bottom: 5px solid #d6610b;
   padding: 1rem; }
 
-#about-header {
+#about, #why, #howdoi, #citygovt, #map {
   border-top: 5px solid #d6610b; }
 
-#about, #howdoi, #map {
-  background-color: #6fa8ba; }
+#map {
+  border-bottom: 5px solid #d6610b; }
+
+#billsa, .ticketa, .adopta, #recyclea, .votea {
+  display: none; }
+
+#howdoi p {
+  margin-bottom: 1rem; }
+
+#how-content h4 {
+  margin-bottom: 1rem; }
+
+.govtmember {
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+.govtpic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px; }
+
+.info {
+  margin-top: 20px; }
+
+#mayor {
+  background-image: url(../assets/citygovt/mayor.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#dist1 {
+  background-image: url(../assets/citygovt/dist1.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#dist2 {
+  background-image: url(../assets/citygovt/dist2.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#dist3 {
+  background-image: url(../assets/citygovt/dist3.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#dist4 {
+  background-image: url(../assets/citygovt/dist4.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#dist5 {
+  background-image: url(../assets/citygovt/dist5.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#dist6 {
+  background-image: url(../assets/citygovt/dist6.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#dist7 {
+  background-image: url(../assets/citygovt/dist7.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#dist8 {
+  background-image: url(../assets/citygovt/dist8.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#dist9 {
+  background-image: url(../assets/citygovt/dist9.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#dist10 {
+  background-image: url(../assets/citygovt/dist10.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 /***map***/
 .map-iframe {
@@ -229,71 +313,30 @@ nav {
 
 .calendar-container {
   background-color: #6fa8ba;
-  padding: 2rem; }
+  padding: 2rem 0; }
 
-/***calendar, from this tutorial http://designmodo.com/calendar-jquery-css3/***/
-.ui-datepicker,
-.ui-datepicker table,
-.ui-datepicker tr,
-.ui-datepicker td,
-.ui-datepicker th {
-  margin: 0;
-  padding: 0;
-  border: none;
-  border-spacing: 0; }
-
-.ui-datepicker {
+#sept7, #sept11, #sept20 {
   display: none;
+  margin: 2rem auto; }
+
+/***calendar***/
+table {
   width: 300px;
-  cursor: default;
-  background: #6fa8ba;
   margin-right: auto;
   margin-left: auto; }
 
-.ui-datepicker-header {
-  position: relative;
-  padding-bottom: 10px;
-  border-bottom: 1px solid white; }
+caption {
+  margin-bottom: 1rem; }
 
-.ui-datepicker-title {
+td {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5rem;
   text-align: center; }
 
-.ui-datepicker-month {
-  color: white;
-  margin-right: 5px; }
-
-.ui-datepicker-year {
-  color: white; }
-
-.ui-datepicker-prev,
-.ui-datepicker-next {
-  display: none; }
-
-.ui-datepicker-calendar th {
-  padding-top: 15px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-weight: normal;
-  color: #004968; }
-
-.ui-datepicker-calendar td {
-  padding: 0 7px;
-  text-align: center;
-  line-height: 26px; }
-
-.ui-datepicker-calendar .ui-state-default {
-  display: block;
-  width: 26px;
-  outline: none;
-  text-decoration: none;
-  color: white;
-  border: 1px solid transparent; }
-
-.ui-datepicker-calendar .ui-state-active {
-  color: white;
-  border: 1px solid white; }
-
-.ui-datepicker-other-month .ui-state-default {
-  color: #fdc03c; }
+.sept7, .sept11, .sept20 {
+  color: #fed06e;
+  font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */

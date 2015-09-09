@@ -4,8 +4,9 @@
 		<meta charset="utf-8">
 		<title>City of Austin | Events</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="">
 		<script src="https://use.typekit.net/jlc6daw.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	</head>
 	<body>
 		<header>
@@ -13,19 +14,19 @@
 				<img src="assets/wordmark.png" alt="austin, texas">
 			</div>
 			<div class="link-menu">
-			<a href="#menu" class="menu-link push">menu</a>
-		</div>
+				<a href="#menu" class="menu-link push">menu</a>
+			</div>
 			<nav id="menu" class="panel" role="navigation">
-    <ul>
-    	<li id="home"><a href="index.html"><img src="assets/navicons/homeicon.png" alt="home icon"></a></li>
-        <li id="events"><a href="events.html"><img src="assets/navicons/calendaricon.png" alt="calendar icon"></a></li>
-        <li id="questions"><img src="assets/navicons/questionicon.png" alt="question icon"></li>
-        <li><a href="#">Text Only</a></li>
-        <li><a href="#">En Español</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Media</a></li>
-    </ul>
-</nav>
+				<ul>
+					<li id="home"><a href="index.html"><img src="assets/navicons/homeicon.png" alt="home icon"></a></li>
+					<li id="events"><a href="events.html"><img src="assets/navicons/calendaricon.png" alt="calendar icon"></a></li>
+					<li id="questions"><img src="assets/navicons/questionicon.png" alt="question icon"></li>
+					<li><a href="#">Text Only</a></li>
+					<li><a href="#">En Español</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Media</a></li>
+				</ul>
+			</nav>
 		</header>
 		<div class="events-header push">
 			<div class="wrapper events-intro">
@@ -33,25 +34,91 @@
 				<p>There is always something special going on in Austin for people of all interests. Learn more about the special events that make our city fun and unique.</p>
 			</div>
 		</div>
-		<div class="wrapper push calendar-container">
-			&nbsp;
-			<div id="calendar"></div>
+		<div class="push calendar-container">
+			<table id="calendar">
+				<caption>September 2015</caption>
+				<tr>
+					<td>Sun</td>
+					<td>Mon</td>
+					<td>Tues</td>
+					<td>Wed</td>
+					<td>Thur</td>
+					<td>Fri</td>
+					<td>Sat</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td class="sept7">7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+					<td class="sept11">11</td>
+					<td>12</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>14</td>
+					<td>15</td>
+					<td>16</td>
+					<td>17</td>
+					<td>18</td>
+					<td>19</td>
+				</tr>
+				<tr>
+					<td class="sept20">20</td>
+					<td>21</td>
+					<td>22</td>
+					<td>23</td>
+					<td>24</td>
+					<td>25</td>
+					<td>26</td>
+				</tr>
+				<tr>
+					<td>27</td>
+					<td>28</td>
+					<td>29</td>
+					<td>30</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
 		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-			<script src="js/bigslide.js"></script>
-<script>
-    $(document).ready(function() {
-        $('.menu-link').bigSlide();
-    });
-</script>
-		<script src="js/jquery-ui.min.js"></script>
-		<script>
-		    $('#calendar').datepicker({
-		        inline: true,
-		        firstDay: 1,
-		        showOtherMonths: true,
-		        dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
-		    });
-		</script>
-	</body>
+	</div>
+	<div id="sept7" class="wrapper">
+		<h3>Tri-Rock Austin Triathlon</h3>
+		<h4>Palmer Events Center</h4>
+		<p>The urban setting provides a swim start at the Stevie Ray Vaughn statue, a swim course in Lady Bird Lake, a bike course over the Congress Street Bridge and a run along Auditorium Shores. This event has a triathlon scene that rocks like no other! </p>
+		<a href="www.trirock.competitor.com">For More Information</a>
+	</div>
+	<div id="sept11" class="wrapper">
+		<h3>Zilker Relays</h3>
+		<h4>Zilker Park</h4>
+		<p>The Zilker Relays is a 10-mile race with teams comprised of 4 runners. Each participant runs a 2.5 mile loop from one central festival/transition area. The team concept of the Zilker Relays is not unique, but the combination of a relay, festival home base, drinks and music, make this experience a favorite for runners of all calibers and ages.</p>
+		<a href="www.zilkerrelays.com">For More Information</a>
+	</div>
+	<div id="sept20" class="wrapper">
+		<h3>Austin Museum Day</h3>
+		<h4>Across Austin</h4>
+		<p>Organized by the Austin Museum Partnership, this special day features free exhibitions and activities at participating Austin-area museums and cultural sites.</p>
+		<a href="www.austinmuseums.org">For More Information</a>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/bigslide.js"></script>
+	<script>
+	$(document).ready(function() {
+	$('.menu-link').bigSlide();
+	});
+	</script>
+</body>
 </html>

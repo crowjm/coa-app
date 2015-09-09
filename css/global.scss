@@ -15,6 +15,7 @@ h1 {
 }
 
 
+
 /***header***/
 .wordmark img {
 	display: block;
@@ -103,7 +104,7 @@ nav {
 }
 
 #events {
-	background-color: $green;
+	background-color: $yellow;
 }
 
 #questions {
@@ -114,20 +115,119 @@ nav {
 /***main get acquainted content***/
 #about-content, .why-content, #how-content, #govt-content, #map-content {
 	display: none;
+	padding: 1rem;
 }
 
 #about-header, #why-header, #how-header, #govt-header, #map-header {
 	text-align: center;
-	border-bottom: 5px solid $orange;
 	padding: 1rem;
 }
 
-#about-header {
+#about, #why, #howdoi, #citygovt, #map {
 	border-top: 5px solid $orange;
 }
 
-#about, #howdoi, #map {
-	background-color: $ltblue;
+#map {
+	border-bottom: 5px solid $orange;
+}
+
+#billsa, .ticketa, .adopta, #recyclea, .votea {
+	display: none;
+}
+
+#howdoi {
+	p {
+		margin-bottom: 1rem;
+	}
+}
+
+#how-content {
+	h4 {
+		margin-bottom: 1rem;
+	}
+}
+
+.govtmember {
+	overflow: hidden;
+	margin-bottom: 1.5rem;
+}
+
+.govtpic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 30px;
+}
+
+.info {
+	margin-top: 20px;
+}
+
+#mayor {
+	background-image: url(../assets/citygovt/mayor.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dist1 {
+	background-image: url(../assets/citygovt/dist1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dist2 {
+	background-image: url(../assets/citygovt/dist2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dist3 {
+	background-image: url(../assets/citygovt/dist3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dist4 {
+	background-image: url(../assets/citygovt/dist4.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dist5 {
+	background-image: url(../assets/citygovt/dist5.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dist6 {
+	background-image: url(../assets/citygovt/dist6.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dist7 {
+	background-image: url(../assets/citygovt/dist7.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dist8 {
+	background-image: url(../assets/citygovt/dist8.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dist9 {
+	background-image: url(../assets/citygovt/dist9.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#dist10 {
+	background-image: url(../assets/citygovt/dist10.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 
@@ -170,5 +270,34 @@ nav {
 
 .calendar-container {
 	background-color: $ltblue;
-	padding: 2rem;
+	padding: 2rem 0;
+}
+
+#sept7, #sept11, #sept20 {
+	display: none;
+	margin: 2rem auto;
+}
+
+/***calendar***/
+table {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+caption {
+	margin-bottom: 1rem;
+}
+
+td {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.sept7, .sept11, .sept20 {
+	color: lighten($yellow,10%);
+	font-weight: bold;
 }
