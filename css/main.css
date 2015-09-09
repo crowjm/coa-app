@@ -327,7 +327,8 @@ table {
   margin-right: auto;
   margin-left: auto;
   display: block;
-  overflow-x: auto; }
+  overflow-x: auto;
+  width: 100%; }
 
 caption {
   margin-bottom: 1rem; }
