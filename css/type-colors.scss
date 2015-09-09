@@ -3,6 +3,11 @@ $body-font-fam: "museo-sans", sans-serif;
 $header: #d6610b;
 $p: #333;
 $a: darken(#6fa8ba, 10%);
+$yellow: #fdc03c;
+$dkblue: #004968;
+$ltblue: #6fa8ba;
+$green: #274d1c;
+$orange: #d6610b;
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $h-font-fam;
@@ -42,7 +47,7 @@ h6 {
 p, a, li {
 	font-family: $body-font-fam;
 	line-height: 1.8;
-	font-size: 1rem;
+	font-size: 1.15rem;
 	font-weight: 300;
 }
 

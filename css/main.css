@@ -75,7 +75,7 @@ h6 {
 p, a, li {
   font-family: "museo-sans", sans-serif;
   line-height: 1.8;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 300; }
 
 p {
@@ -85,6 +85,66 @@ a {
   color: #5092a6;
   font-weight: 500;
   font-style: italic; }
+
+/***general***/
+.wrapper {
+  width: 90%;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto; }
+
+a {
+  text-decoration: none; }
+
+/***nav***/
+#menu {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 9999; }
+
+.menu-link {
+  position: absolute;
+  top: 13px;
+  left: 25px;
+  z-index: 9999; }
+
+.panel {
+  position: fixed;
+  left: -8em;
+  /*left or right and the width of your navigation panel*/
+  width: 8em;
+  /*should match the above value*/ }
+
+.push {
+  position: relative; }
+
+nav {
+  background-color: white;
+  border-right: 5px solid #fdc03c; }
+  nav li {
+    padding-left: 15px; }
+  nav li:nth-of-type(4) {
+    padding-top: 10px; }
+
+#home, #events, #questions {
+  padding-left: 0; }
+
+#home img, #events img, #questions img {
+  width: 60px;
+  padding: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
+#home {
+  background-color: #6fa8ba; }
+
+#events {
+  background-color: #274d1c; }
+
+#questions {
+  background-color: #004968; }
 
 /***calendar, from this tutorial http://designmodo.com/calendar-jquery-css3/***/
 .ui-datepicker,
