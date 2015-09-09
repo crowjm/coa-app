@@ -333,6 +333,9 @@ table {
 caption {
   margin-bottom: 1rem; }
 
+tr, td {
+  display: block; }
+
 td {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
