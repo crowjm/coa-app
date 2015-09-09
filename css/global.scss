@@ -168,6 +168,10 @@ nav {
 	margin-top: 20px;
 }
 
+.info:nth-of-type(3), .info:nth-of-type(6) {
+	margin-top: 10px;
+}
+
 #mayor {
 	background-image: url(../assets/citygovt/mayor.png);
 	background-size: cover;
