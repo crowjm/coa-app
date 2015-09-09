@@ -60,3 +60,9 @@ a {
 	font-weight: 500;
 	font-style: italic;
 }
+
+.ui-datepicker {
+	text-transform: uppercase;
+    font-family: $body-font-fam;
+    font-size: 1rem;
+}

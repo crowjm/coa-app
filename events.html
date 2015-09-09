@@ -9,24 +9,32 @@
 	</head>
 	<body>
 		<header>
+			<div class="wordmark push">
+				<img src="assets/wordmark.png" alt="austin, texas">
+			</div>
+			<div class="link-menu">
 			<a href="#menu" class="menu-link push">menu</a>
+		</div>
 			<nav id="menu" class="panel" role="navigation">
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">The Ballad of El Goodo</a></li>
-        <li><a href="#">Thirteen</a></li>
-        <li><a href="#">September Gurls</a></li>
-        <li><a href="#">What's Going Ahn</a></li>
+    	<li id="home"><a href="index.html"><img src="assets/navicons/homeicon.png" alt="home icon"></a></li>
+        <li id="events"><a href="events.html"><img src="assets/navicons/calendaricon.png" alt="calendar icon"></a></li>
+        <li id="questions"><img src="assets/navicons/questionicon.png" alt="question icon"></li>
+        <li><a href="#">Text Only</a></li>
+        <li><a href="#">En Español</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Media</a></li>
     </ul>
 </nav>
 		</header>
-		<div class="welcome-header push">
-			<div class="wrapper">
+		<div class="events-header push">
+			<div class="wrapper events-intro">
 				<h1>Events</h1>
 				<p>There is always something special going on in Austin for people of all interests. Learn more about the special events that make our city fun and unique.</p>
 			</div>
 		</div>
-		<div class="wrapper push">
+		<div class="wrapper push calendar-container">
+			&nbsp;
 			<div id="calendar"></div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>

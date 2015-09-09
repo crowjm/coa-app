@@ -5,131 +5,146 @@
 		<title>City of Austin | Welcome</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<script src="https://use.typekit.net/jlc6daw.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	</head>
 	<body>
 		<header>
-			<a href="#menu" class="menu-link push">menu</a>
+			<div class="wordmark push">
+				<img src="assets/wordmark.png" alt="austin, texas">
+			</div>
+			<div class="link-menu">
+				<a href="#menu" class="menu-link push">menu</a>
+			</div>
 			<nav id="menu" class="panel" role="navigation">
-    <ul>
-    	<li id="home"><a href="index.html"><img src="assets/navicons/homeicon.png" alt="home icon"></a></li>
-        <li id="events"><a href="events.html"><img src="assets/navicons/calendaricon.png" alt="calendar icon"></a></li>
-        <li id="questions"><img src="assets/navicons/questionicon.png" alt="question icon"></li>
-        <li><a href="#">Text Only</a></li>
-        <li><a href="#">En Español</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Media</a></li>
-    </ul>
-</nav>
+				<ul>
+					<li id="home"><a href="index.html"><img src="assets/navicons/homeicon.png" alt="home icon"></a></li>
+					<li id="events"><a href="events.html"><img src="assets/navicons/calendaricon.png" alt="calendar icon"></a></li>
+					<li id="questions"><img src="assets/navicons/questionicon.png" alt="question icon"></li>
+					<li><a href="#">Text Only</a></li>
+					<li><a href="#">En Español</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Media</a></li>
+				</ul>
+			</nav>
 		</header>
 		<div class="welcome-header push">
-			<div class="wrapper">
+			<div class="wrapper welcome-intro">
 				<h1>Welcome to Austin!</h1>
 				<p>Whether you just moved to Austin or are looking to relocate, we're here to help you get acclimated with our city.</p>
 			</div>
 		</div>
 		<div class="wrapper push">
 			<div id="about">
-				<h3>About Austin</h3>
-				<p>Located in Central Texas on the eastern edge of the American Southwest, Austin is the capital of the state of Texas, the Lone Star State. The city dates back to the 1830s, when the first Anglo-American settlers arrived in the area, then part of Mexico. In 1837, settlers founded the village of Waterloo on the banks of the Colorado River, the first permanent settlement in the area. By 1839, Waterloo would adopt the name Austin and the frontier town would become the capital of the Republic of Texas. The City is named for Stephen F. Austin, the “Father of Texas.”</p>
-				<h3>Why Austin?</h3>
-				<p>Austin is an incredible place to live, work, play and invest, and it's easy to see why.</p>
-				<ul>
+				<h3 id="about-header">About Austin</h3>
+				<p id="about-content">Located in Central Texas on the eastern edge of the American Southwest, Austin is the capital of the state of Texas, the Lone Star State. The city dates back to the 1830s, when the first Anglo-American settlers arrived in the area, then part of Mexico. In 1837, settlers founded the village of Waterloo on the banks of the Colorado River, the first permanent settlement in the area. By 1839, Waterloo would adopt the name Austin and the frontier town would become the capital of the Republic of Texas. The City is named for Stephen F. Austin, the “Father of Texas.”</p>
+			</div>
+			<div id="why">
+				<h3 id="why-header">Why Austin?</h3>
+				<p class="why-content">Austin is an incredible place to live, work, play and invest, and it's easy to see why.</p>
+				<ul class="why-content">
 					<li>Number 4 Most Creative City (Forbes, July 2014)</li>
 					<li>Number 6 Best Place for STEM Graduates (Nerd Wallet, 2014)</li>
 					<li>16th in the Nation for Solar Power (as of 2014)</li>
 					<li>The University of Texas at Austin is One of the Best Buys in Higher Education (Fiske Guide to Colleges, 2014)</li>
 					<li>Number 1 City for Group Fitness (MyFitnessPal, 2014)</li>
 					<li>Number 4 Best Place to Raise a Family (Parenting Magazine, July 2013)</li>
-				</ul>
-			</div>
-			<div id="howdoi">
-				<h3>How Do I...?</h3>
-				<p>Not sure how to pay your City of Austin utility bill or what can be recycled? We're here to help!</p>
-				<h4>Pay My Bills?</h4>
-				<p>The City of Austin offers a variety of payment options so you can pay your bill conveniently. We encourage you to pay online — it’s easy and it’s free. You can also pay by phone, by mail, or at an authorized pay station, or you can have your payment automatically drafted from your bank account.</p>
-				<h4>Pay A Ticket?</h4>
-				<p>The Austin Municipal Court accepts many different payment methods and offer many ways for your to make your payments. We accept cash (American dollars), money orders, cashiers’ checks, personal checks (from American banks in American dollars), and the following major credit cards: Visa, MasterCard, Discover and American Express.</p>
-				<p>You can pay online (24/7), in person at any court location, by mail, by phone, at a drop box, or via Western Union.</p>
-				<h4>Adopt A Pet?</h4>
-				<p>Austin Animal Center has wonderful pets looking for good homes. If you think you’re ready for the responsibility of adding a pet to your family, visit the Center or browse our adoptable pets online.</p>
-				<p>Austin Animal Center also has numerous programs and partnerships designed to help pets in the shelter, pets in the community and pets at home. Services range from free rabies vaccination clinics to low-cost / free veterinary care, including spay or neuter services.</p>
-				<h4>Recycle?</h4>
-				<p>Austin Resource Recovery provides curbside recycling collection to single-family households and some small scale multifamily customers in Austin. With our curbside recycling program, you can mix recyclable paper, plastic, metal and glass in your blue recycling cart - no sorting required!</p>
-				<h4>Register to Vote in Texas?</h4>
-				<p>You can register to vote via text by texting "Register" to 48683 (IVOTE). You will receive a postage-paid application by mail to sign and mail back.</p>
-				<p>You can also request an application from the <a href="http://www.sos.state.tx.us/elections/voter/reqvr.shtml">Texas Secretary of State</a>.</p>
-			</div>
-			<div id="citygovt">
-				<h3>Meet Your City Government</h3>
-				<div class="govtmember">
-					<div class="govtpic" id="mayor"></div>
-					<h4>Steve Alder</h4>
-					<h5>Mayor</h5>
+				</ul></div>
+				<div id="howdoi">
+					<h3 id="how-header">How Do I...?</h3>
+					<div id="how-content">
+						<p>Not sure how to pay your City of Austin utility bill or what can be recycled? We're here to help!</p>
+						<h4>Pay My Bills?</h4>
+						<p>The City of Austin offers a variety of payment options so you can pay your bill conveniently. We encourage you to pay online — it’s easy and it’s free. You can also pay by phone, by mail, or at an authorized pay station, or you can have your payment automatically drafted from your bank account.</p>
+						<h4>Pay A Ticket?</h4>
+						<p>The Austin Municipal Court accepts many different payment methods and offer many ways for your to make your payments. We accept cash (American dollars), money orders, cashiers’ checks, personal checks (from American banks in American dollars), and the following major credit cards: Visa, MasterCard, Discover and American Express.</p>
+						<p>You can pay online (24/7), in person at any court location, by mail, by phone, at a drop box, or via Western Union.</p>
+						<h4>Adopt A Pet?</h4>
+						<p>Austin Animal Center has wonderful pets looking for good homes. If you think you’re ready for the responsibility of adding a pet to your family, visit the Center or browse our adoptable pets online.</p>
+						<p>Austin Animal Center also has numerous programs and partnerships designed to help pets in the shelter, pets in the community and pets at home. Services range from free rabies vaccination clinics to low-cost / free veterinary care, including spay or neuter services.</p>
+						<h4>Recycle?</h4>
+						<p>Austin Resource Recovery provides curbside recycling collection to single-family households and some small scale multifamily customers in Austin. With our curbside recycling program, you can mix recyclable paper, plastic, metal and glass in your blue recycling cart - no sorting required!</p>
+						<h4>Register to Vote in Texas?</h4>
+						<p>You can register to vote via text by texting "Register" to 48683 (IVOTE). You will receive a postage-paid application by mail to sign and mail back.</p>
+						<p>You can also request an application from the <a href="http://www.sos.state.tx.us/elections/voter/reqvr.shtml">Texas Secretary of State</a>.</p>
+					</div>
 				</div>
-				<div class="govtmember">
-					<div class="govtpic" id="1"></div>
-					<h4>Ora Houston</h4>
-					<h5>District 1</h5>
+					<div id="citygovt">
+						<h3 id="govt-header">Meet Your City Government</h3>
+						<div id="govt-content">
+							<div class="govtmember">
+								<div class="govtpic" id="mayor"></div>
+								<h4>Steve Alder</h4>
+								<h5>Mayor</h5>
+							</div>
+							<div class="govtmember">
+								<div class="govtpic" id="1"></div>
+								<h4>Ora Houston</h4>
+								<h5>District 1</h5>
+							</div>
+							<div class="govtmember">
+								<div class="govtpic" id="2"></div>
+								<h4>Delia Garza</h4>
+								<h5>District 2</h5>
+							</div>
+							<div class="govtmember">
+								<div class="govtpic" id="3"></div>
+								<h4>Sabino "Pio" Renteria</h4>
+								<h5>District 3</h5>
+							</div>
+							<div class="govtmember">
+								<div class="govtpic" id="4"></div>
+								<h4>Gregorio "Greg" Casar</h4>
+								<h5>District 4</h5>
+							</div>
+							<div class="govtmember">
+								<div class="govtpic" id="5"></div>
+								<h4>Ann Kitchen</h4>
+								<h5>District 5</h5>
+							</div>
+							<div class="govtmember">
+								<div class="govtpic" id="6"></div>
+								<h4>Don Zimmerman</h4>
+								<h5>District 6</h5>
+							</div>
+							<div class="govtmember">
+								<div class="govtpic" id="7"></div>
+								<h4>Leslie Pool</h4>
+								<h5>District 7</h5>
+							</div>
+							<div class="govtmember">
+								<div class="govtpic" id="8"></div>
+								<h4>Ellen Troxclair</h4>
+								<h5>District 8</h5>
+							</div>
+							<div class="govtmember">
+								<div class="govtpic" id="9"></div>
+								<h4>Kathie Tovo</h4>
+								<h5>District 9</h5>
+							</div>
+							<div class="govtmember">
+								<div class="govtpic" id="10"></div>
+								<h4>Sheri Gallo</h4>
+								<h5>District 10</h5>
+							</div>
+						</div>
+					</div>
+					<div id="map">
+						<h3 id="map-header">Learn Your Way Around</h3>
+						<div id="map-content">
+							<p>This color-coded map will help you find <span class="parks">parks</span>, <span class="libraries">libraries</span>, <span class="ccenters">community centers</span>, <span class="tacos">tacos</span>, and <span class="venues">music venues</span> in Austin.</p>
+							<div class="map-iframe">
+								<iframe src="https://www.google.com/maps/d/embed?mid=z2GbOYJF2VqQ.kd8OjZEf_C0I" width="640" height="480"></iframe>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="govtmember">
-					<div class="govtpic" id="2"></div>
-					<h4>Delia Garza</h4>
-					<h5>District 2</h5>
-				</div>
-				<div class="govtmember">
-					<div class="govtpic" id="3"></div>
-					<h4>Sabino "Pio" Renteria</h4>
-					<h5>District 3</h5>
-				</div>
-				<div class="govtmember">
-					<div class="govtpic" id="4"></div>
-					<h4>Gregorio "Greg" Casar</h4>
-					<h5>District 4</h5>
-				</div>
-				<div class="govtmember">
-					<div class="govtpic" id="5"></div>
-					<h4>Ann Kitchen</h4>
-					<h5>District 5</h5>
-				</div>
-				<div class="govtmember">
-					<div class="govtpic" id="6"></div>
-					<h4>Don Zimmerman</h4>
-					<h5>District 6</h5>
-				</div>
-				<div class="govtmember">
-					<div class="govtpic" id="7"></div>
-					<h4>Leslie Pool</h4>
-					<h5>District 7</h5>
-				</div>
-				<div class="govtmember">
-					<div class="govtpic" id="8"></div>
-					<h4>Ellen Troxclair</h4>
-					<h5>District 8</h5>
-				</div>
-				<div class="govtmember">
-					<div class="govtpic" id="9"></div>
-					<h4>Kathie Tovo</h4>
-					<h5>District 9</h5>
-				</div>
-				<div class="govtmember">
-					<div class="govtpic" id="10"></div>
-					<h4>Sheri Gallo</h4>
-					<h5>District 10</h5>
-				</div>
-			</div>
-			<div id="map">
-				<h3>Learn Your Way Around</h3>
-				<p>This color-coded map will help you find <span class="parks">parks</span>, <span class="libraries">libraries</span>, <span class="ccenters">community centers</span>, <span class="tacos">tacos</span>, and <span class="venues">music venues</span> in Austin.</p>
-				<iframe src="https://www.google.com/maps/d/embed?mid=z2GbOYJF2VqQ.kd8OjZEf_C0I" width="640" height="480"></iframe>
-			</div>
-		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/bigslide.js"></script>
-<script>
-    $(document).ready(function() {
-        $('.menu-link').bigSlide();
-    });
-</script>
-	</body>
-</html>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+				<script type="text/javascript" src="js/jquery.js"></script>
+				<script src="js/bigslide.js"></script>
+				<script>
+				$(document).ready(function() {
+				$('.menu-link').bigSlide();
+				});
+				</script>
+			</body>
+		</html>

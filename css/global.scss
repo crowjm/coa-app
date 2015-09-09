@@ -10,6 +10,45 @@ a {
 	text-decoration: none;
 }
 
+h1 {
+	text-align: center;
+}
+
+
+/***header***/
+.wordmark img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1rem;
+	width: 50%;
+	max-width: 280px;
+}
+
+.link-menu {
+	border-top: 5px solid $orange;
+	border-bottom: 5px solid $orange;
+}
+
+.welcome-header {
+	background-image: url(../assets/welcomebg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.welcome-intro {
+	background-color: rgba(255,255,255,0.65);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 1rem;
+}
+
+
+
 /***nav***/
 #menu {
 	-webkit-box-sizing: border-box;
@@ -20,9 +59,10 @@ a {
 
 .menu-link {
 	position: absolute;
-	top: 13px;
-	left: 25px;
 	z-index: 9999;
+	text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .panel {
@@ -37,7 +77,7 @@ a {
 
 nav {
 	background-color: white;
-	border-right: 5px solid $yellow;
+	border-right: 5px solid $orange;
 	li {
 		padding-left: 15px;
 	}
@@ -68,4 +108,67 @@ nav {
 
 #questions {
 	background-color: $dkblue;
+}
+
+
+/***main get acquainted content***/
+#about-content, .why-content, #how-content, #govt-content, #map-content {
+	display: none;
+}
+
+#about-header, #why-header, #how-header, #govt-header, #map-header {
+	text-align: center;
+	border-bottom: 5px solid $orange;
+	padding: 1rem;
+}
+
+#about-header {
+	border-top: 5px solid $orange;
+}
+
+#about, #howdoi, #map {
+	background-color: $ltblue;
+}
+
+
+
+/***map***/
+.map-iframe {
+	position: relative;
+	padding-bottom: 90%;
+	height: 0;
+	overflow: hidden;
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+
+
+/***events***/
+.events-header {
+	background-image: url(../assets/eventsbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.events-intro {
+	background-color: rgba(255,255,255,0.65);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 1rem;
+}
+
+.calendar-container {
+	background-color: $ltblue;
+	padding: 2rem;
 }
